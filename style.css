@@ -1,0 +1,87 @@
+*, body{
+    padding:0;
+    margin:0;
+    font-family: 'Montserrat'
+}
+body{
+    background-image: url(image/voie1.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-color: lightgray;
+}
+.bouttonAnimation{
+    background-color: grey;
+    opacity: .7;
+    position: absolute;
+    border-radius: 50%;
+    height: 10vh;
+    width: 10vh;
+    bottom: 3%;
+    right: 5%;
+}
+.bouttonAnimation>i{
+    font-size: 3rem;
+    margin:15% auto;
+    padding-left:20%;
+}
+.codethecode>a{
+    font-weight: bolder;
+    color: black;
+    background-color: lightgrey;
+}
+a{
+    padding: 1%;
+    text-align: center;
+    border: 1px solid white;
+    text-decoration: none;
+    background-color: #ffe4c4;
+}
+a:hover{
+    background-color: #f0f8ff;
+    text-decoration: none;
+}
+.test{
+    border:1px solid rgb(207, 204, 204)
+}
+
+img{
+    position: absolute;
+    right:0;
+    bottom: 0;
+}
+.compagnie{
+    height: 50vh;
+    width: 30%;
+    transform: rotateY(345deg);
+    transition: transform 0.5s ease-in-out;
+}
+.compagnie:hover{
+    transform: rotateY(0deg);
+    transition: transform 0.5s ease-in-out;
+
+}
+.i2,.i3{
+    margin-left: 5%
+}
+.comp{
+    perspective: 50rem;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20vh;
+}
+.comp img{
+    width: 100%;
+}
+.comp p{
+    background-color: lightgrey;
+    color: rgb(6, 54, 38);
+    margin-top: 30%;
+    font-size: 2rem;
+    text-align: center;
+}
+.cacher{
+    display: none;
+}
+.trouver{
+    display: block;
+}
